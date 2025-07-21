@@ -1,6 +1,6 @@
-import express from "express";
-import cors from "cors";
-import { Configuration, OpenAIApi } from "openai";
+const express = require("express");
+const cors = require("cors");
+const { Configuration, OpenAIApi } = require("openai");
 
 const app = express();
 app.use(cors());
